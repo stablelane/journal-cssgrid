@@ -24,12 +24,12 @@ body {
 .logo{
     gap: 0.3em;
 }
-.logo a{
+.logo h1{
     font-family: "Roboto", sans-serif;
     font-size: 13.55px;
     font-weight: 700;
-    text-decoration: none;
     color: #0E0E0E;
+    text-decoration: none;
 
 }
 .logo img{
@@ -38,10 +38,11 @@ body {
 .nav-item{
     gap: 1em;
 }
-.nav-item h1{
-    
+.nav-item a{
+    text-decoration: none;
     font-size: 12px;
     font-weight: 600;
+    color: #0E0E0E;
 
 }
 .hero-link {
@@ -89,7 +90,7 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
 }
-.journal-page img{
+.journal-image{
     width: 374px;
     height: 191px;
     object-fit: cover;
@@ -104,6 +105,13 @@ body {
 
 .journal-page p{
     margin-bottom: 1em;
+}
+.avatar{
+    width: 182px;
+    height: 182px;
+    margin-bottom: 2em;
+
+
 }
 .recent-post h3{
     text-align: center;
